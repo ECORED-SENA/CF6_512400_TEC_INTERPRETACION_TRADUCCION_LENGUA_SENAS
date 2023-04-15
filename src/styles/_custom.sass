@@ -1,19 +1,374 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 80%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float4 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 10%
     right: 30%
+  &-3
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 15%
 
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+	
 
-@keyframes float1
+	100% 
+		transform: rotate(180deg) translateX(10px) rotate(-180deg)  
+
+@keyframes float3
   0%
-    transform: translateY(20px)
+    transform: translatex(10px)
 
+  50%
+    transform: translatex(0px)
   100%
-    transform: translateY(0px)
+    transform: rotate(-10deg)
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(10px) rotate(180deg)   
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+.img-mov
+  @media (max-width: 810px)
+    display: block
+    margin: auto
+    width: auto
+    height: auto      
+
+.bg1
+  background-image: url(../assets/curso/temas/1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/3.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom     
+
+.bloque-fondo2
+  background-image: url(../assets/curso/temas/70.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom      
+
+.c1
+  color: #005B8B !important
+
+.bgh
+  background-color: #4DB1F0 !important 
+  border-top: 5px solid #0098E8 
+
+.bgt1
+  background-color: #F6F6F6   
+
+.bgt2
+  background-color: #EDF8FD 
+
+.bg9
+  background-color: #0079B9
+  border-radius: 0 20px 0 20px
+  *
+    color: white  
+
+.cajon.color-acento-contenido
+  background-color: #BFE5F9  
+
+.bg2
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 105%       
+    background-image: url('../assets/curso/temas/7.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center           
+
+.c2
+  color: #8B172B !important      
+
+.bg3
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/10.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center     
+
+.up
+  z-index: 3 !important   
+
+.bg4
+  background-color: #FFFAF4   
+
+.bg6
+  background-color: #BFE5F9
+
+.bg7
+  background-color: #BFE5F9
+  border-radius: 10px 
+  cursor: pointer  
+
+.bg7:hover
+  background-color: #F9DCE1
+  border-radius: 10px    
+
+.bg8
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-acento-contenido
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/27.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center       
+
+.bg10
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-acento-contenido
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,244,245,1) 22%, rgba(240,244,245,1) 50%, rgba(240,244,245,1) 78%, rgba(255,255,255,1) 100%); 
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center        
+
+.bg11
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-acento-contenido, .bgw
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 110%       
+    background-image: url('../assets/curso/temas/32.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center     
+
+.bgw
+  background-color: #FFFFFF !important
+
+.brad
+  border-radius: 20px !important    
+
+.sha  
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)  
+
+.bloque-texto-c.color-secundario
+  background-color: #E8E8E8  
+
+.bloque-texto-c::after
+  background-color: #005B8B
+
+.bloque-texto-c i
+  color: #005B8B    
+
+.bg12
+  background-color: #F9DCE1
+  border-radius: 10px 
+  cursor: pointer  
+
+.bg12:hover
+  background-color: #BFE5F9
+  border-radius: 10px      
+
+.bg13
+  position: relative
+  .row, figure, p, h3, h4, h5, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 105%       
+    background-image: url('../assets/curso/temas/42.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center      
+
+.bg14
+  background-color: #1F4168
+  border-radius: 10px 
+  cursor: pointer
+  *
+    color: white  
+
+.bg14:hover
+  background-color: #4DB1F0
+  border-radius: 10px
+  *
+    color: #12263F 
+
+.j
+  display: flex
+  justify-content: center
+  align-items: center
+               
+.bloque-texto-d.color-secundario::before
+  background-color: #CCEAFB
+.bloque-texto-d
+  border-top: 0px                 
+
+.bg15
+  position: relative
+  .row, figure, p, h3, h4, h5, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 110%       
+    background-image: url('../assets/curso/temas/45.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center     
+
+.bg16
+  background-color: #FFFAF4
+  border: 1px solid  #2E6A90
+  border-radius: 50px    
+
+.bg17
+  background-color: #AFE1FC !important  
+
+.ts
+  *
+    color: #12263F !important   
+
+.horizontal-scroll
+  align-items: stretch !important      
+
+.tabs-b.color-primario .tabs-b__tab--active
+  border-top: 5px solid  #ED9AA9 !important
+  background-color:  #fceff18c   !important     
+.tabs-b.color-primario .tabs-b__tab--active
+  filter: grayscale(0) !important
+.tabs-b__tab
+  filter: grayscale(100%)   
+.tabs-b__tab
+  background-color: #FCEFF1    
+.bg18
+  background-image: url(../assets/curso/temas/54.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center      
+
+.bg19  
+  background-color: #F8D5DB !important    
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 20px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 30px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px       
+
+.bg20
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-acento-contenido, .bgw
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -50rem
+    width: calc( 100% + 96px )
+    height: 80%       
+    background-image: url('../assets/curso/temas/69.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center           
