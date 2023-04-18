@@ -29,13 +29,12 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Traducción',
         desarrolloContenidos: true,
@@ -43,7 +42,6 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo:
           'Aspectos que intervienen en el proceso de traducción y equivalencias',
@@ -51,7 +49,6 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Técnicas de traducción y categorización',
         desarrolloContenidos: true,
