@@ -40,6 +40,9 @@
 	100% 
 		transform: rotate(-180deg) translateX(10px) rotate(180deg)   
 
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
 .img-a 
   display: block
   margin: auto
@@ -53,7 +56,18 @@
     display: block
     margin: auto
     width: auto
-    height: auto      
+    height: auto    
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
 
 .bg1
   background-image: url(../assets/curso/temas/1.png)
@@ -84,7 +98,10 @@
   background-color: #F6F6F6   
 
 .bgt2
-  background-color: #EDF8FD 
+  background-color: #EDF8FD
+
+.tdv   
+  vertical-align: top
 
 .bg9
   background-color: #0079B9
@@ -372,3 +389,6 @@
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center           
+
+.bg9-1
+  border-bottom: 2px solid #0098E8    

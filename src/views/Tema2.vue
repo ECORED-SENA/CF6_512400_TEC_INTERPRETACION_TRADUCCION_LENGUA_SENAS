@@ -13,7 +13,7 @@
       .col-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/20.svg', alt='')  
 
-    .row.justify-content-center.align-items-center.mb-5.text-center           
+    .row.justify-content-center.mb-5.text-center           
       .col-lg-3.my-3
         .bg7.p-4.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/21.svg', alt='')
@@ -21,7 +21,7 @@
       .col-lg-3.my-3
         .bg7.p-4.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/22.svg', alt='')
-          h5(data-aos="fade-down").mb-0 Asimilaciones   
+          h5(data-aos="fade-down").mb-0 Extensiones   
       .col-lg-3.my-3
         .bg7.p-4.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/23.svg', alt='')
@@ -43,9 +43,9 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7.my-3
-        p(data-aos="fade-down") En la década de 1960 apareció un concepto en el mundo de la traductología, de manera reiterativa: la equivalencia; pero solo hasta los años 80 deja de ser un término ambiguo y se vuelve más homogéneo.
+        p(data-aos="fade-down") En la década de 1960 apareció un concepto en el mundo de la traductología, de manera reiterativa: #[b la equivalencia]; pero solo hasta los años 80 deja de ser un término ambiguo y se vuelve más homogéneo.
 
-        p(data-aos="fade-down") En su manual On linguistic Aspects of Translation, Jakobson (1959), fue el primer autor que habló de “equivalence” desde el punto de vista lingüístico, afirmó que la equivalencia absoluta no existe y que un mensaje puede ser expresado en cualquier lengua. Así, la misión del traductor es la de trasladar un contenido de la lengua original a la lengua meta, con el fin de que se esté garantizada la equivalencia, no de sustituir unidades sino mensajes completos.      
+        p(data-aos="fade-down") En su manual #[i On linguistic Aspects of Translation], Jakobson (1959), fue el primer autor que habló de “equivalence” desde el punto de vista lingüístico, afirmó que la equivalencia absoluta no existe y que un mensaje puede ser expresado en cualquier lengua. Así, la misión del traductor es la de trasladar un contenido de la lengua original a la lengua meta, con el fin de que se esté garantizada la equivalencia, no de sustituir unidades sino mensajes completos.      
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.png', alt='')       
 
@@ -68,7 +68,7 @@
     .bg11   
       .row.justify-content-start.mb-4      
         .col-auto.bg9.p-3(data-aos="flip-down")
-          h5.mb-0(data-aos="fade-down") Equivalencia entre lenguas en el proceso de traducción 
+          h5.mb-0(data-aos="fade-down") Equivalencia cultural
 
       p(data-aos="fade-down").mb-5 Como mediador lingüístico y cultural, el traductor e intérprete carga con una gran responsabilidad, debido a que necesita amplios conocimientos de las lenguas y las culturas (de origen y meta). Antes de enfrentarse al ejercicio de traducción cultural, es importante recordar estas recomendaciones: 
       img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/33.svg', alt='')
@@ -77,12 +77,15 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-5.up.my-3
-        p(data-aos="fade-down") Otra denominación de los elementos propios de una cultura es el culturema, término esencial para esclarecer la equivalencia cultural
+        p(data-aos="fade-down") Otra denominación de los elementos propios de una cultura es el culturema, término esencial para esclarecer la equivalencia cultural.
         .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right
-          p(data-aos="fade-down").mb-2 Culturema es cualquier elemento simbólico específico cultural, simple o complejo, que corresponda a un objeto, idea, actividad o hecho, que sea suficientemente conocido entre los miembros de una sociedad, que sirva de guía, referencia, o modelo de interpretación o acción      
+          p(data-aos="fade-down").mb-2 Culturema es cualquier elemento simbólico específico cultural, simple o complejo, que corresponda a un objeto, idea, actividad o hecho, que sea suficientemente conocido entre los miembros de una sociedad, que sirva de guía, referencia, o modelo de interpretación o acción #[b (Luque, 2009)].      
       .col-lg-7.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')       
+
+    p(data-aos="fade-down").mb-5 Los culturemas o elementos culturales, se pueden ubicar en las categorías, que se presentan a continuación: 
+    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/71.svg', alt='')       
 
     .row.justify-content-center.align-items-center.mb-5          
       .col-lg-4.up.my-3

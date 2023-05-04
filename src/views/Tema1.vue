@@ -98,7 +98,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/zntjiZpR_-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-
+        figcaption Video. Tipos de traducciones LSC. 
     .row.justify-content-start.mb-4      
       .col-auto.bg9.p-3(data-aos="flip-down")
         h5.mb-0(data-aos="fade-down") Métodos de traducción     
@@ -115,7 +115,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/99JZ0eJuZ4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
-
+        figcaption Video. Métodos de traducción 
     .row.justify-content-start.mb-4      
       .col-auto.bg9.p-3(data-aos="flip-down")
         h5.mb-0(data-aos="fade-down") Recursos técnicos y tecnológicos en la traducción
@@ -133,7 +133,7 @@
       .col-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')          
       .col.my-3 
-        p.mb-0(data-aos="fade-down") En el campo de la lengua de señas, teniendo en cuenta que a esta lengua se considera ágrafa, #[b.c1 existe un sistema de escritura llamado signwriting, que permite graficar de manera comprensible lo expresado en dicha lengua.] Además, cabría mencionar sobre sistemas individuales que algunos sordos crean para hacer sus escritos, realizar exposiciones o simplemente para tomar notas personales. 
+        p.mb-0(data-aos="fade-down") En el campo de la lengua de señas, teniendo en cuenta que a esta lengua se considera ágrafa, #[b.c1 existe un sistema de escritura llamado #[i signwriting], que permite graficar de manera comprensible lo expresado en dicha lengua.] Además, cabría mencionar sobre sistemas individuales que algunos sordos crean para hacer sus escritos, realizar exposiciones o simplemente para tomar notas personales. 
         
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-6.my-3
