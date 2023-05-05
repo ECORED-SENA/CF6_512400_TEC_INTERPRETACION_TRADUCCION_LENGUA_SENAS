@@ -277,27 +277,33 @@
                     .list__txt
                       p.mb-0 Regla de las integrales.  
 
-    .row.justify-content-start.mb-4      
-      .col-auto.up.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Categorización de las técnicas de traducción
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-auto.up.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/67.svg', alt='')       
-      .col.up.my-3 
-        p.mb-0(data-aos="fade-down") Jean-Paul Vinay y Jean Darbelnet (1958) son pioneros en los estudios de la taxonomía clásica de los procedimientos de traducción. Su trabajo da pie para enunciar algunas de las técnicas de traducción que se continúan trabajando hasta el día de hoy:       
-
     .bg20
       .bgw.brad.p-4.sha
         .row.justify-content-center.align-items-center          
           .col-lg-10 
+
             .row.justify-content-start.my-4      
-              .col-auto.bg9.up.p-3(data-aos="flip-down")
-                h5.mb-0(data-aos="fade-down") Modulación
+              .col-auto.up.bg9.p-3(data-aos="flip-down")
+                h5.mb-0(data-aos="fade-down") Categorización de las técnicas de traducción
+
 
             .row.justify-content-center.align-items-center.mb-5
-              .col-lg-5.up.my-3
+              .col-auto.up.my-3
+                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/67.svg', alt='')       
+              .col.up.my-3 
+                p.mb-0(data-aos="fade-down") Jean-Paul Vinay y Jean Darbelnet (1958) son pioneros en los estudios de la taxonomía clásica de los procedimientos de traducción. Su trabajo da pie para enunciar algunas de las técnicas de traducción que se continúan trabajando hasta el día de hoy:
+
+            .row.justify-content-start.mb-4      
+              .col-auto.bg9-1.p-0(data-aos="flip-down")
+                .list.mb-1
+                  .list__item
+                    .list__item__icon
+                      img(src='@/assets/curso/temas/v2.svg', alt='')
+                  .list__txt
+                    h4.mb-0 Modulación
+
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-6.up.my-3
                 p(data-aos="fade-down") Es una técnica de traducción en la que el mensaje varía mediante un cambio de perspectiva o un cambio semántico. 
 
                 .bloque-texto-d.color-secundario.p-4
@@ -308,10 +314,8 @@
                   .bloque-texto-d__autor 
                     .h5.mb-0 (Vinay y Darbelnet, 1958).  
 
-              .col-lg-7.up.my-3
+              .col-lg-6.up.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/68.png', alt='') 
-
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/72.svg', alt='') 
 
         .row.justify-content-center.align-items-center      
           .col-lg-10      
@@ -319,13 +323,13 @@
               table
                 thead.bgh
                   tr
-                    th.text-center Enfoque
-                    th.text-center Variedades de modulación
+                    th.text-center.tbright Enfoque
+                    th.text-center.tbright Variedades de modulación
                     th.text-center Ejemplo
 
                 tbody
                   tr.bgt2
-                    td.tdv  
+                    td.tdv.tbright  
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -341,7 +345,7 @@
                         li 
                           i.lista-ul__vineta
                           | Sensibilidad, experiencia y creatividad del traductor. 
-                    td.tdv 
+                    td.tdv.tbright 
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -395,13 +399,13 @@
               table
                 thead.bgh
                   tr
-                    th.text-center Enfoque
-                    th.text-center Variedades de modulación
+                    th.text-center.tbright Enfoque
+                    th.text-center.tbright Variedades de modulación
                     th.text-center Ejemplo
 
                 tbody
                   tr.bgt2
-                    td.tdv  
+                    td.tdv.tbright  
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -410,7 +414,7 @@
                         li 
                           i.lista-ul__vineta
                           | Cambio en una categoría gramatical o, en otras palabras, una parte de la oración o la condición morfológica de una palabra.
-                    td.tdv 
+                    td.tdv.tbright 
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -457,38 +461,39 @@
                     h4.mb-0 Literal 
                 
             p(data-aos="fade-down").mb-5 Esta técnica también es conocida como meta frase, donde la traducción del texto se realiza de forma literal, palabra por palabra, sin alterar ni la estructura ni el significado de este. Con esta técnica se pierde el sentido del texto ya que no suelen haber muchas palabras con una única traducción en un idioma. Por lo que suele utilizarse solo cuando la lengua meta conserva la misma sintaxis, sentido y estilo que la original.
+            .row.justify-content-center.align-items-center          
+              .col-lg-10
+                .tabla.color-acento-contenido.mb-5
+                  table
+                    thead.bgh
+                      tr
+                        th.text-center.tbright Enfoque
+                        th.text-center Ejemplo
 
-            .tabla.color-acento-contenido.mb-5
-              table
-                thead.bgh
-                  tr
-                    th.text-center Enfoque
-                    th.text-center Ejemplo
+                    tbody
+                      tr.bgt2
+                        td.tdv.tbright  
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              | Trasvase o equivalencia monema por monema. 
 
-                tbody
-                  tr.bgt2
-                    td.tdv  
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          | Trasvase o equivalencia monema por monema. 
+                            li 
+                              i.lista-ul__vineta
+                              | Correspondencia precisa de estructura y significación sin alterar la lengua original.
+                        td.tdv 
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i I am reading a book] - Yo estoy leyendo un libro.
 
-                        li 
-                          i.lista-ul__vineta
-                          | Correspondencia precisa de estructura y significación sin alterar la lengua original.
-                    td.tdv 
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i I am reading a book] - Yo estoy leyendo un libro.
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i As a whole] – Como un todo (En conjunto).
 
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i As a whole] – Como un todo (En conjunto).
-
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i I’m late] – Estoy tarde (llegué tarde). 
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i I’m late] – Estoy tarde (llegué tarde). 
 
             .row.justify-content-start.mb-4      
               .col-auto.bg9-1.p-0(data-aos="flip-down")
@@ -505,13 +510,13 @@
               table
                 thead.bgh
                   tr
-                    th.text-center Enfoque
-                    th.text-center Variedades de modulación
+                    th.text-center.tbright Enfoque
+                    th.text-center.tbright Variedades de modulación
                     th.text-center Ejemplo
 
                 tbody
                   tr.bgt2
-                    td.tdv  
+                    td.tdv.tbright  
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -520,7 +525,7 @@
                         li 
                           i.lista-ul__vineta
                           | Se traducen literalmente los elementos que lo componen.
-                    td.tdv 
+                    td.tdv.tbright 
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -564,13 +569,13 @@
               table
                 thead.bgh
                   tr
-                    th.text-center Enfoque
-                    th.text-center Variedades de modulación
+                    th.text-center.tbright Enfoque
+                    th.text-center.tbright Variedades de modulación
                     th.text-center Ejemplo
 
                 tbody
                   tr.bgt2
-                    td.tdv  
+                    td.tdv.tbright  
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -579,7 +584,7 @@
                         li 
                           i.lista-ul__vineta
                           | Llenar un vacío léxico cuando en la lengua meta no hay una equivalencia.
-                    td.tdv 
+                    td.tdv.tbright 
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -624,38 +629,40 @@
                     h4.mb-0 Equivalencia 
                 
             p(data-aos="fade-down").mb-5 La equivalencia o adaptación, es una técnica que utiliza diferentes recursos estructurales y estilísticos de la lengua origen, siempre y cuando transmitan el mismo mensaje. Cuando una de las lenguas utiliza un código propio o un idiomatismo, busca una correspondencia en significado entre las dos lenguas. Está ligado a los proverbios, frases idiomáticas, juegos de palabras, metáforas, juegos fónicos, variantes dialectales, entre otros.
-            .tabla.color-acento-contenido.mb-5
-              table
-                thead.bgh
-                  tr
-                    th.text-center Enfoque
-                    th.text-center Ejemplo
+            .row.justify-content-center.align-items-center          
+              .col-lg-10            
+                .tabla.color-acento-contenido.mb-5
+                  table
+                    thead.bgh
+                      tr
+                        th.text-center.tbright Enfoque
+                        th.text-center Ejemplo
 
-                tbody
-                  tr.bgt2
-                    td.tdv  
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          |  Pertenece al plano semántico, no al léxico.
+                    tbody
+                      tr.bgt2
+                        td.tdv.tbright  
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              |  Pertenece al plano semántico, no al léxico.
 
-                        li 
-                          i.lista-ul__vineta
-                          |  Abarca la totalidad del mensaje ligado a la situación.
-                    td.tdv 
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i It’s raining cats and dogs] - Llueve a cántaros.
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i To pull somebody] ’s leg - Tomar del pelo a alguien.
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i Haste makes waste] – Del afán no queda sino el cansancio.
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[i There are as like as two peas] – Son como dos gotas de agua. 
+                            li 
+                              i.lista-ul__vineta
+                              |  Abarca la totalidad del mensaje ligado a la situación.
+                        td.tdv 
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i It’s raining cats and dogs] - Llueve a cántaros.
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i To pull somebody] ’s leg - Tomar del pelo a alguien.
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i Haste makes waste] – Del afán no queda sino el cansancio.
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[i There are as like as two peas] – Son como dos gotas de agua. 
 
             .row.justify-content-start.mb-4      
               .col-auto.bg9-1.p-0(data-aos="flip-down")
@@ -672,13 +679,13 @@
               table
                 thead.bgh
                   tr
-                    th.text-center Enfoque
-                    th.text-center Variedades de modulación
+                    th.text-center.tbright Enfoque
+                    th.text-center.tbright Variedades de modulación
                     th.text-center Ejemplo
 
                 tbody
                   tr.bgt2
-                    td.tdv  
+                    td.tdv.tbright  
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -687,7 +694,7 @@
                         li 
                           i.lista-ul__vineta
                           | Se crea en relación con otra situación, evitando un calco cultural o un contrasentido.
-                    td.tdv 
+                    td.tdv.tbright 
                       ul.lista-ul.fa-ul
                         li 
                           i.lista-ul__vineta
@@ -729,37 +736,39 @@
                     h4.mb-0 Paráfrasis 
                 
             p(data-aos="fade-down").mb-5 Ampliación o explicación del significado de un término o fragmento en algún idioma. Se suele usar con textos de baja calidad o con omisiones, para dejar claro el significado confuso en el idioma fuente. Imita sin alterar y ayuda a comprender un enunciado (aclara localismos).
-            .tabla.color-acento-contenido.mb-5
-              table
-                thead.bgh
-                  tr
-                    th.text-center Enfoque
-                    th.text-center Ejemplo
+            .row.justify-content-center.align-items-center          
+              .col-lg-10             
+                .tabla.color-acento-contenido.mb-5
+                  table
+                    thead.bgh
+                      tr
+                        th.tbright.text-center Enfoque
+                        th.text-center Ejemplo
 
-                tbody
-                  tr.bgt2
-                    td.tdv  
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          | El traductor utiliza sus propias palabras con un vocabulario sencillo, pero cuidando las ideas de la lengua origen.
+                    tbody
+                      tr.bgt2
+                        td.tdv.tbright  
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              | El traductor utiliza sus propias palabras con un vocabulario sencillo, pero cuidando las ideas de la lengua origen.
 
-                        li 
-                          i.lista-ul__vineta
-                          | Expresa el mismo contenido, pero con diferente estructura sintáctica. 
-                    td.tdv 
-                      ul.lista-ul.fa-ul
-                        li 
-                          i.lista-ul__vineta
-                          | El horno no está para bollos. - Debido a lo tensa que se encuentra la situación, lo mejor sería no sumar más complicaciones por el momento.
+                            li 
+                              i.lista-ul__vineta
+                              | Expresa el mismo contenido, pero con diferente estructura sintáctica. 
+                        td.tdv 
+                          ul.lista-ul.fa-ul
+                            li 
+                              i.lista-ul__vineta
+                              | El horno no está para bollos. - Debido a lo tensa que se encuentra la situación, lo mejor sería no sumar más complicaciones por el momento.
 
-                        li 
-                          i.lista-ul__vineta
-                          p.mb-0 #[b #[i Facepalm]]. - Gesto de llevar la palma de la mano a la cara para sugerir irónicamente desaprobación ante algo ilógico o tonto.
+                            li 
+                              i.lista-ul__vineta
+                              p.mb-0 #[b #[i Facepalm]]. - Gesto de llevar la palma de la mano a la cara para sugerir irónicamente desaprobación ante algo ilógico o tonto.
 
-                        li 
-                          i.lista-ul__vineta
-                          | VIP. - Persona muy importante.                         
+                            li 
+                              i.lista-ul__vineta
+                              | VIP. - Persona muy importante.                         
 </template>
 
 <script>
