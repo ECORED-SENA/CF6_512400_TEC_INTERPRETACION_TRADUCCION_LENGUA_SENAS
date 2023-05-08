@@ -67,16 +67,22 @@
       .col.my-3 
         p.mb-0(data-aos="fade-down") Por otro lado, #[b.c2 las técnicas de traducción] tienen que ver con las diferentes metodologías dentro del texto. Son la aplicación concreta visible en el resultado, que afecta a zonas menores del texto. En la siguiente figura se expondrá la diferencia entre ambos términos. 
 
-    .bg3
-      .row.justify-content-center.align-items-center.mb-4          
-        .col-lg-4.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/11.png', alt='')          
+    .row.justify-content-center.align-items-center          
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2.
+          span Diferencia entre método y técnica de traducción      
+        .tabla.color-acento-contenido.mb-5
+          table
+            thead.bgh
+              tr
+                th.text-center.tbright Método de traducción
+                th.text-center Técnica de traducción
 
-        .col-lg-8.my-3
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 1.
-            span Diferencia entre método y técnica de traducción
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/12.svg', alt='')          
+            tbody
+              tr.bgt2
+                td.tdv.tbright.p-4 Desarrollo de un proceso de traducción reglamentado que tiene un carácter que va más allá de lo individual y se aplica para la totalidad de un texto. 
+                td.tdv.p-4 Diferentes metodologías dentro del texto que afecta a zonas menores de este; constituyen  la aplicación concreta y visible para obtener un resultado.
 
       p.mb-5(data-aos="fade-down") Traducir es una actividad que radica en entender y transferir lo que está escrito en un texto, llamado texto origen, a su significado equivalente o lo más cercano posible, en otro idioma, a un texto meta. 
 
@@ -122,13 +128,36 @@
 
     p.mb-5(data-aos="fade-down") Para realizar la labor de llevar un texto de un idioma a otro procurando la mayor claridad y fidelidad posible al texto original, se requiere contar con diferentes recursos técnicos que, afortunadamente hoy en el mundo del traductor ya se cuentan, como también de una plataforma tecnológica que facilite la tarea. Entre estos recursos técnicos se puede hablar de:  
 
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span Recursos técnicos y tecnológicos en la traducción
-        img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/16.png', alt='')  
-        img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/16.svg', alt='')  
+    .row.justify-content-center.align-items-center.mb-4          
+      .col-auto
+        .header-arrow(data-aos="flip-down")
+          h4(data-aos="fade-down").text-white.mb-0.text-center.px-5 Recursos técnicos y tecnológicos en la traducción 
+
+    .row.justify-content-center   
+      .col-lg-3.my-3.p-0.col-md-6
+        .img-text       
+          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/73.png', alt='')
+          .text-up.mtop
+            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Libros y revistas de traducción 
+            
+      .col-lg-3.my-3.p-0.col-md-6
+        .img-text       
+          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/74.png', alt='')
+          .text-up.mtop
+            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Diccionarios para traductores
+
+      .col-lg-3.my-3.p-0.col-md-6
+        .img-text       
+          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/75.png', alt='')
+          .text-up.mtop
+            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Glosarios de traducción 
+
+      .col-lg-3.my-3.p-0.col-md-6
+        .img-text       
+          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')
+          .text-up.mtop
+            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Foros de traducción
+    
     .row.justify-content-center.align-items-center.mb-4         
       .col-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')          

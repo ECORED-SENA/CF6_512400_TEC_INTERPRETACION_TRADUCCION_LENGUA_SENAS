@@ -192,7 +192,7 @@
     margin-top: 0
     width: calc( 100% + 96px )
     height: 100%       
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,244,245,1) 22%, rgba(240,244,245,1) 50%, rgba(240,244,245,1) 78%, rgba(255,255,255,1) 100%); 
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,244,245,1) 22%, rgba(240,244,245,1) 50%, rgba(240,244,245,1) 78%, rgba(255,255,255,1) 100%) 
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center        
@@ -398,3 +398,90 @@
 
 .tbright 
   border-right: 1px solid #0098E8 !important  
+
+.mtop
+  position: relative
+  margin-top: 6rem
+  background-color: #BADDED
+  cursor: pointer
+  border-radius: 15px     
+.mtop:hover
+  background-color: #F4CAD2
+  cursor: pointer    
+.up
+  z-index: 3
+
+.bg21
+  background-color: #DAE0E5 
+  border-radius: 15px 
+.bg22
+  background-color: #C0CED9
+  border-radius: 15px   
+
+.dot
+  border-left-style: dotted 
+  border-left-width: 4px 
+  color: #005B8B
+  padding-left: 2rem 
+  @media (max-width: 810px)
+    border-left-width: 0px
+    border-top-style: dotted  
+    border-top-width: 4px 
+    padding: 2rem    
+
+.mov
+  @media (max-width: 810px)
+    display: none    
+
+.img-p
+  padding: .2rem !important   
+
+.bg23
+  background-color: #AFE1FC
+  border-radius: 15px
+  cursor: pointer
+
+.bg23:hover
+  background-color: #EBEBEB
+  border-radius: 15px
+  cursor: pointer
+
+.img-text
+  position: relative
+  display: inline-block
+  text-align: center
+
+.text-up
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.header-arrow
+  background: #112E4C 
+  position: relative
+  padding: 1rem
+  border-radius: 50px
+
+  header-arrow 
+      margin: 0
+      color:white 
+      text-align: center   
+
+  &--xs 
+    padding: 0
+    height: 8px
+
+.header-arrow:before 
+  content: ''
+  -webkit-transition: all .3s ease
+  transition: all .3s ease
+  border-style: solid
+  border-width: 25px 25px 0px 25px
+  border-color: #112E4C transparent transparent transparent
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  bottom: -18px
+  margin-top: 0px 
+  z-index: 20  

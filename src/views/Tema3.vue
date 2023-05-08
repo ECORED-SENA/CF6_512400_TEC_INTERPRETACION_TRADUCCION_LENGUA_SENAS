@@ -107,175 +107,178 @@
             h4.text-center Las supernotas 
             p.mb-0 Se basa en la utilización de recursos visuales, trazar una gran cantidad de dibujos, mapas mentales, gráficas y esquemas de manera que se vaya siguiendo la explicación secuencial, sin necesidad de escribir párrafos largos.   
 
-    p(data-aos="fade-down") Otras formas para apoyar las traducciones son: 
+    p.mb-5(data-aos="fade-down") Otras formas para apoyar las traducciones son: 
 
-    TabsB.color-primario.my-5
-      .py-4.py-md-5.bg18(titulo="Mapas mentales" :icono="require('@/assets/curso/temas/62.svg')")
-        .px-5
-          p.mb-5 Permite expresar, organizar y representar la información de forma lógica y creativa, en la siguiente infografía se presentan algunas de sus características: 
-          img.img-a.img-t(src='@/assets/curso/temas/55.svg' alt='imagen de apoyo')
+    .row.justify-content-center.align-items-center        
+      .col-lg-12.up
+        TabsB.color-primario.mb-5
+          .py-4.py-md-5.bg18(titulo="Mapas mentales" :icono="require('@/assets/curso/temas/62.svg')")
+            .px-5
+              p.mb-5 Permite expresar, organizar y representar la información de forma lógica y creativa, en la siguiente infografía se presentan algunas de sus características: 
+              img.img-a.img-t(src='@/assets/curso/temas/55.svg' alt='imagen de apoyo')
 
-      .py-4.py-md-5.bg18(titulo="Mapas conceptuales" :icono="require('@/assets/curso/temas/63.svg')")
-        .px-5
-          p.mb-5 Esta es una técnica de estudio muy útil para el aprendizaje de conceptos complejos, donde se estructura y organiza la información compleja en frases breves desarrollando la capacidad de síntesis y comprensión de la información. La construcción de un mapa conceptual requiere de los elementos que se indican a continuación: 
-          img.img-a.img-t(src='@/assets/curso/temas/56.svg' alt='imagen de apoyo')          
+          .py-4.py-md-5.bg18(titulo="Mapas conceptuales" :icono="require('@/assets/curso/temas/63.svg')")
+            .px-5
+              p.mb-5 Esta es una técnica de estudio muy útil para el aprendizaje de conceptos complejos, donde se estructura y organiza la información compleja en frases breves desarrollando la capacidad de síntesis y comprensión de la información. La construcción de un mapa conceptual requiere de los elementos que se indican a continuación: 
+              img.img-a.img-t(src='@/assets/curso/temas/56.svg' alt='imagen de apoyo')  
 
-      .py-4.py-md-5.bg18(titulo="Fichas o tarjetas de estudio" :icono="require('@/assets/curso/temas/64.svg')")
-        .px-5
-          p.mb-5 Contienen una síntesis de la información que se necesita para un determinado estudio, investigación, trabajo o proyecto. Están orientadas a la memorización, asimilar datos concretos, fechas, números, vocabulario o repaso de los temas a estudiar. Las fichas de estudio proporcionan comodidad, orden y claridad; pueden dividirse por materias o temas, por colores o numeración y separarlas en cajas diferentes. Una ficha de estudio debe contar con los siguientes puntos básicos: 
-          .row.justify-content-center     
-            .col-lg-4.my-3
-              .tarjeta.tarjeta-avatar.h-100
-                img.img-a.img-t(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
+          .py-4.py-md-5.bg18(titulo="Fichas o tarjetas de estudio" :icono="require('@/assets/curso/temas/64.svg')")
+            .px-5
+              p.mb-5 Contienen una síntesis de la información que se necesita para un determinado estudio, investigación, trabajo o proyecto. Están orientadas a la memorización, asimilar datos concretos, fechas, números, vocabulario o repaso de los temas a estudiar. Las fichas de estudio proporcionan comodidad, orden y claridad; pueden dividirse por materias o temas, por colores o numeración y separarlas en cajas diferentes. Una ficha de estudio debe contar con los siguientes puntos básicos: 
+              .row.justify-content-center     
+                .col-lg-4.my-3
+                  .tarjeta.tarjeta-avatar.h-100
+                    img.img-a.img-t(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
 
-                .tarjeta.color-primario.bg17.ts.h-100
-                  .p-4.pt-5
-                    h4.text-center Puntos básicos.
-                    ul.lista-ul.fa-ul.fa-ul
-                      li 
-                        i.lista-ul__vineta
-                        | Título: explica el tema de la ficha a estudiar.
-                      li 
-                        i.lista-ul__vineta
-                        | Tema tratado en la ficha.
-                      li 
-                        i.lista-ul__vineta
-                        | Tipo de material al que hace referencia la ficha.
-                      li 
-                        i.lista-ul__vineta
-                        | Resumen. 
-            .col-lg-4.my-3
-              .tarjeta.tarjeta-avatar.h-100
-                img.img-a.img-t(src='@/assets/curso/temas/58.svg' alt='AvatarTop')
+                    .tarjeta.color-primario.bg17.ts.h-100
+                      .p-4.pt-5
+                        h4.text-center Puntos básicos.
+                        ul.lista-ul.fa-ul.fa-ul
+                          li 
+                            i.lista-ul__vineta
+                            | Título: explica el tema de la ficha a estudiar.
+                          li 
+                            i.lista-ul__vineta
+                            | Tema tratado en la ficha.
+                          li 
+                            i.lista-ul__vineta
+                            | Tipo de material al que hace referencia la ficha.
+                          li 
+                            i.lista-ul__vineta
+                            | Resumen. 
+                .col-lg-4.my-3
+                  .tarjeta.tarjeta-avatar.h-100
+                    img.img-a.img-t(src='@/assets/curso/temas/58.svg' alt='AvatarTop')
 
-                .tarjeta.color-primario.bg17.ts.h-100
-                  .p-4.pt-5
-                    h4.text-center Estudio de un texto.
-                    ul.lista-ul.fa-ul.fa-ul
-                      li 
-                        i.lista-ul__vineta
-                        | Nombre de la publicación.
-                      li 
-                        i.lista-ul__vineta
-                        | Citar el tomo.
-                      li 
-                        i.lista-ul__vineta
-                        | Número de páginas en las que se encuentra la información.
-                      li 
-                        i.lista-ul__vineta
-                        | Citar la editorial, el número de edición y año.
-                      li 
-                        i.lista-ul__vineta
-                        | Resumir el tema estudiado.  
-            .col-lg-4.my-3
-              .tarjeta.tarjeta-avatar.h-100
-                img.img-a.img-t(src='@/assets/curso/temas/59.svg' alt='AvatarTop')
+                    .tarjeta.color-primario.bg17.ts.h-100
+                      .p-4.pt-5
+                        h4.text-center Estudio de un texto.
+                        ul.lista-ul.fa-ul.fa-ul
+                          li 
+                            i.lista-ul__vineta
+                            | Nombre de la publicación.
+                          li 
+                            i.lista-ul__vineta
+                            | Citar el tomo.
+                          li 
+                            i.lista-ul__vineta
+                            | Número de páginas en las que se encuentra la información.
+                          li 
+                            i.lista-ul__vineta
+                            | Citar la editorial, el número de edición y año.
+                          li 
+                            i.lista-ul__vineta
+                            | Resumir el tema estudiado.  
+                .col-lg-4.my-3
+                  .tarjeta.tarjeta-avatar.h-100
+                    img.img-a.img-t(src='@/assets/curso/temas/59.svg' alt='AvatarTop')
 
-                .tarjeta.color-primario.bg17.ts.h-100
-                  .p-4.pt-5
-                    h4.text-center Material multimedia.
-                    ul.lista-ul.fa-ul.fa-ul
-                      li 
-                        i.lista-ul__vineta
-                        | Se da la ubicación del documento o material de donde se obtiene la información.
-                      li 
-                        i.lista-ul__vineta
-                        | Hora, minuto, segundo, en donde se encuentra la información, contenida en la ficha.
-                      li 
-                        i.lista-ul__vineta
-                        | Fecha de emisión.     
+                    .tarjeta.color-primario.bg17.ts.h-100
+                      .p-4.pt-5
+                        h4.text-center Material multimedia.
+                        ul.lista-ul.fa-ul.fa-ul
+                          li 
+                            i.lista-ul__vineta
+                            | Se da la ubicación del documento o material de donde se obtiene la información.
+                          li 
+                            i.lista-ul__vineta
+                            | Hora, minuto, segundo, en donde se encuentra la información, contenida en la ficha.
+                          li 
+                            i.lista-ul__vineta
+                            | Fecha de emisión.     
 
-      .py-4.py-md-5.bg18(titulo="Lluvia de ideas o <i>brainstorming</i>" :icono="require('@/assets/curso/temas/65.svg')")
-        .px-5
-          p.mb-5 Técnica no estructurada para grupos de trabajo, donde se buscan soluciones a diversas situaciones mediante la generación de ideas espontáneas y en formato horizontal, dando diversos enfoques en el tema a abordar y su acotación. Para hacer una lluvia de ideas se pueden tener en cuenta estas sugerencias:
-          img.img-a.img-t(src='@/assets/curso/temas/60.svg' alt='imagen de apoyo') 
-      .py-4.py-md-5.bg18(titulo="Técnicas mnemotécnicas" :icono="require('@/assets/curso/temas/66.svg')")
-        .px-5                          
-          .row.justify-content-center.align-items-center     
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/61.png' alt='imagen de apoyo') 
-            .col-lg-7.my-3
-              p La palabra “mnemotecnia” se deriva del griego #[i mnéemee] (memoria), y #[i téchnee] (arte), y se refiere a un sistema sencillo utilizado para recordar una secuencia de datos, nombres, números, listas de datos relacionando palabras, imágenes, entre otros. Existen diferentes técnicas mnemotécnicas con reglas y símbolos particulares. Entre ellas se destacan:
-              .row.justify-content-center.align-items-start
-                .col-lg-6.my-3
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Método de las iniciales.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Método de la historia o el relato.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Método Loci o de los lugares.                
-                .col-lg-6.my-3
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Método de la cadena.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Conversión numérica.   
+          .py-4.py-md-5.bg18(titulo="Lluvia de ideas o <i>brainstorming</i>" :icono="require('@/assets/curso/temas/65.svg')")
+            .px-5
+              p.mb-5 Técnica no estructurada para grupos de trabajo, donde se buscan soluciones a diversas situaciones mediante la generación de ideas espontáneas y en formato horizontal, dando diversos enfoques en el tema a abordar y su acotación. Para hacer una lluvia de ideas se pueden tener en cuenta estas sugerencias:
+              img.img-a.img-t(src='@/assets/curso/temas/60.svg' alt='imagen de apoyo') 
 
-              p Algunas reglas mnemotécnicas son:
-              .row.justify-content-center.align-items-start
-                .col-lg-6.up.my-3
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de la longitud de las palabras.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de la fábula.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de la cadena.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de la primera letra.              
-                .col-lg-6.up.my-3
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de las palabras inventadas.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de los lugares.
-                  .list.mb-3
-                    .list__item
-                      .list__item__icon
-                        img(src='@/assets/curso/temas/v.svg', alt='')
-                    .list__txt
-                      p.mb-0 Regla de las integrales.  
+          .py-4.py-md-5.bg18(titulo="Técnicas mnemotécnicas" :icono="require('@/assets/curso/temas/66.svg')")
+            .px-5                          
+              .row.justify-content-center.align-items-center     
+                .col-lg-5.my-3
+                  img.img-a.img-t(src='@/assets/curso/temas/61.png' alt='imagen de apoyo') 
+                .col-lg-7.my-3
+                  p La palabra “mnemotecnia” se deriva del griego #[i mnéemee] (memoria), y #[i téchnee] (arte), y se refiere a un sistema sencillo utilizado para recordar una secuencia de datos, nombres, números, listas de datos relacionando palabras, imágenes, entre otros. Existen diferentes técnicas mnemotécnicas con reglas y símbolos particulares. Entre ellas se destacan:
+                  .row.justify-content-center.align-items-start
+                    .col-lg-6.my-3
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Método de las iniciales.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Método de la historia o el relato.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Método Loci o de los lugares.                
+                    .col-lg-6.my-3
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Método de la cadena.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Conversión numérica.   
+
+                  p Algunas reglas mnemotécnicas son:
+                  .row.justify-content-center.align-items-start
+                    .col-lg-6.up.my-3
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de la longitud de las palabras.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de la fábula.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de la cadena.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de la primera letra.              
+                    .col-lg-6.up.my-3
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de las palabras inventadas.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de los lugares.
+                      .list.mb-3
+                        .list__item
+                          .list__item__icon
+                            img(src='@/assets/curso/temas/v.svg', alt='')
+                        .list__txt
+                          p.mb-0 Regla de las integrales. 
 
     .bg20
       .bgw.brad.p-4.sha

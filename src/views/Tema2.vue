@@ -61,19 +61,119 @@
     p(data-aos="fade-down").mb-5 La equivalencia entre lenguas en el proceso de traducción hace referencia a que una unidad traducida alcanza el nivel de correspondencia con respecto a la lengua origen, cuando lo traducido presenta el mismo valor que la unidad original. Uno de los precursores de la traductología, Nida (1964), desarrolló un enfoque comunicativo en la traducción, menciona que el traductor se debate entre dos modos o estilos de traducir, los cuales se presentan a continuación: 
 
     .bg10.mb-5
-      img.pt-5.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/30.svg', alt='')  
-      img.pb-5.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/31.svg', alt='')  
+      .row.justify-content-center.align-items-center.mb-4          
+        .col-auto
+          .header-arrow(data-aos="flip-down")
+            h4(data-aos="fade-down").text-white.mb-0.text-center.px-5 La traducción de equivalencia 
 
-   
-    .bg11   
-      .row.justify-content-start.mb-4      
-        .col-auto.bg9.p-3(data-aos="flip-down")
-          h5.mb-0(data-aos="fade-down") Equivalencia cultural
+      .row.justify-content-center.align-items-center.mb-5           
+        .col-lg-6.my-3
+          .row.justify-content-center.align-items-center         
+            .col-lg-4  
+              img.img-a.img-t.mov(data-aos="zoom-in")(src='@/assets/curso/temas/78.svg', alt='')  
+            .col-lg-8
+              h4.text-center La traducción de equivalencia formal
+              .row.justify-content-center.align-items-center.mb-4           
+                .col-auto
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/79.svg', alt='')  
 
-      p(data-aos="fade-down").mb-5 Como mediador lingüístico y cultural, el traductor e intérprete carga con una gran responsabilidad, debido a que necesita amplios conocimientos de las lenguas y las culturas (de origen y meta). Antes de enfrentarse al ejercicio de traducción cultural, es importante recordar estas recomendaciones: 
-      img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/33.svg', alt='')
-      .bgw.brad.p-4.sha.d-block.d-lg-none 
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.svg', alt='')   
+              .bg21.p-4.h-100
+                p(data-aos="fade-down") Se considera un calco estructural, no es tan común y suelen utilizarlo con motivo de identificar el constructor formal e idiomático de la lengua origen.
+                ul.lista-ul.fa-ul
+                  li 
+                    i.lista-ul__vineta
+                    | Se acerca a la lengua origen.
+                  li 
+                    i.lista-ul__vineta
+                    | Se orienta a conservar la forma lingüística de la lengua origen.                 
+                  li 
+                    i.lista-ul__vineta
+                    | Pretende imitar la sucesión de las palabras en la sintaxis (lengua de meta). 
+                  li 
+                    i.lista-ul__vineta
+                    | Se puede hablar de una traducción literal. 
+
+        .col-lg-6.my-3.dot
+          h4.text-center La traducción de equivalencia dinámica o de efecto
+          .row.justify-content-center.align-items-center.mb-4           
+            .col-auto
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/80.svg', alt='')  
+
+          .row.justify-content-center.align-items-center.bg16.mb-3(data-aos="flip-down") 
+            .col-auto.p-0.img-p
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/81.png', alt='')       
+            .col 
+              p.mb-0(data-aos="fade-down") Se acerca al receptor y la cultura de la lengua meta.     
+          .row.justify-content-center.align-items-center.bg16.mb-3(data-aos="flip-down") 
+            .col-auto.p-0.img-p
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/82.png', alt='')       
+            .col 
+              p.mb-0(data-aos="fade-down") Recurre a una adaptación no forzada, natural y próxima.
+          .row.justify-content-center.align-items-center.bg16.mb-3(data-aos="flip-down") 
+            .col-auto.p-0.img-p
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.png', alt='')       
+            .col 
+              p.mb-0(data-aos="fade-down") No intenta ser un calco de la lengua origen, sino, utilizar los recursos de la lengua meta. 
+          .row.justify-content-center.align-items-center.bg16.mb-3(data-aos="flip-down") 
+            .col-auto.p-0.img-p
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/84.png', alt='')       
+            .col 
+              p.mb-0(data-aos="fade-down") Busca provocar en la lengua meta el mismo efecto que produce la lengua origen.
+
+          .bg22.p-3
+            p(data-aos="fade-down").mb-0 Mantiene el contenido y obtiene una reacción por parte del receptor, gracias al valor semántico que transmite el traductor o intérprete.                                                         
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9.p-3(data-aos="flip-down")
+        h5.mb-0(data-aos="fade-down") Equivalencia cultural
+
+    p(data-aos="fade-down").mb-4 Como mediador lingüístico y cultural, el traductor e intérprete carga con una gran responsabilidad, debido a que necesita amplios conocimientos de las lenguas y las culturas (de origen y meta). Antes de enfrentarse al ejercicio de traducción cultural, es importante recordar estas recomendaciones: 
+
+    .row.justify-content-center.align-items-end       
+      .col-lg-6.my-3 
+        h5(data-aos="fade-down").mb-4 La relación entre las dos culturas:
+        .list.mb-3(data-aos="fade-right")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v3.svg', alt='')
+          .list__txt
+            p.mb-0 ¿Cuál es dominante?
+
+        .list.mb-3(data-aos="fade-right")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v3.svg', alt='')
+          .list__txt
+            p.mb-0 ¿Hay paridad o similitud, lejanía, cercanía, equivalencias, términos inexistentes, gestos, conceptos o comportamientos?
+
+        .list.mb-3(data-aos="fade-right")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v3.svg', alt='')
+          .list__txt
+            p.mb-0 Injerencias (cuando la cultura toma prestados elementos de otra).       
+      .col-lg-6.my-3 
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/86.png', alt='')       
+
+    .row.justify-content-center.mb-4       
+      .col-lg-3.my-3(data-aos="fade-right")
+        .bg23.p-4.h-100
+          img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/87.svg', alt='')
+          p(data-aos="fade-down").mb-0 Características de la lengua origen que pueden condicionar el culturema. 
+
+      .col-lg-3.my-3(data-aos="fade-right")
+        .bg23.p-4.h-100
+          img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/88.svg', alt='')
+          p(data-aos="fade-down").mb-0 Carácter del culturema (grado de universalidad). 
+
+      .col-lg-3.my-3(data-aos="fade-left")
+        .bg23.p-4.h-100
+          img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/89.svg', alt='')
+          p(data-aos="fade-down").mb-0 Características del receptor.
+
+      .col-lg-3.my-3(data-aos="fade-left")
+        .bg23.p-4.h-100
+          img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/90.svg', alt='')
+          p(data-aos="fade-down").mb-0 Objetivo de la traducción o interpretación.                     
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-5.up.my-3
@@ -85,7 +185,10 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')       
 
     p(data-aos="fade-down").mb-5 Los culturemas o elementos culturales, se pueden ubicar en las categorías, que se presentan a continuación: 
-    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/71.svg', alt='')       
+    .row.justify-content-center.align-items-center.mb-4          
+      .col-auto
+        .header-arrow(data-aos="flip-down")
+          h4(data-aos="fade-down").text-white.mb-0.text-center.px-5 Los culturemas o elementos culturales      
 
     .row.justify-content-center.align-items-center.mb-5          
       .col-lg-4.up.my-3
@@ -175,7 +278,8 @@
 
     p(data-aos="fade-down") La equivalencia por niveles como la equivalencia gramatical que establece que las lenguas presentan distintas estructuras gramaticales, complejiza en muchas ocasiones las correspondencias directas en la lengua meta. 
 
-    p(data-aos="fade-down") Cada lengua presenta #[b.c2 peculiaridades comunes y características propias], sin mencionar los acrónimos, neologismos y barbarismos, por lo que muchos se ven forzados al calco lingüístico como estrategia para la adaptación de equivalentes.                            
+    p(data-aos="fade-down") Cada lengua presenta #[b.c2 peculiaridades comunes y características propias], sin mencionar los acrónimos, neologismos y barbarismos, por lo que muchos se ven forzados al calco lingüístico como estrategia para la adaptación de equivalentes.
+                           
 </template>
 
 <script>
