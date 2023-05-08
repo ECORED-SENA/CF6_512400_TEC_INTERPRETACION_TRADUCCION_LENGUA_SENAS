@@ -84,7 +84,7 @@ export default {
       },
       {
         icono: 'fas fa-file-download',
-        titulo: 'Descargar Pdf',
+        titulo: 'Descargar PDF',
         download: 'downloads/512400_CF06_DU.pdf',
       },
       {
