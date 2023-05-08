@@ -83,6 +83,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-download',
+        titulo: 'Descargar Pdf',
+        download: 'downloads/512400_CF06_DU.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
