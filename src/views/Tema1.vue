@@ -132,31 +132,23 @@
       .col-auto
         .header-arrow(data-aos="flip-down")
           h4(data-aos="fade-down").text-white.mb-0.text-center.px-5 Recursos técnicos y tecnológicos en la traducción 
-
     .row.justify-content-center   
-      .col-lg-3.my-3.p-0.col-md-6
-        .img-text       
-          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/73.png', alt='')
-          .text-up.mtop
-            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Libros y revistas de traducción 
-            
-      .col-lg-3.my-3.p-0.col-md-6
-        .img-text       
-          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/74.png', alt='')
-          .text-up.mtop
-            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Diccionarios para traductores
-
-      .col-lg-3.my-3.p-0.col-md-6
-        .img-text       
-          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/75.png', alt='')
-          .text-up.mtop
-            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Glosarios de traducción 
-
-      .col-lg-3.my-3.p-0.col-md-6
-        .img-text       
-          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')
-          .text-up.mtop
-            h5.text-center.mx-2.py-3.mb-0(data-aos="flip-down") Foros de traducción
+      .col-lg-3.my-3.col-md-6
+        img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/73.png', alt='')
+        .mtop.p-3
+          h5.text-center.mb-0(data-aos="flip-down") Libros y revistas de traducción 
+      .col-lg-3.my-3.col-md-6
+        img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/74.png', alt='')
+        .mtop.p-3
+          h5.text-center.mb-0(data-aos="flip-down") Diccionarios para traductores
+      .col-lg-3.my-3.col-md-6
+        img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/75.png', alt='')
+        .mtop.p-3
+          h5.text-center.mb-0(data-aos="flip-down") Glosarios de traducción 
+      .col-lg-3.my-3.col-md-6
+        img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')
+        .mtop.p-3
+          h5.text-center.mb-0(data-aos="flip-down") Foros de traducción
     
     .row.justify-content-center.align-items-center.mb-4         
       .col-auto.my-3
