@@ -115,11 +115,17 @@
           .py-4.py-md-5.bg18(titulo="Mapas mentales" :icono="require('@/assets/curso/temas/62.svg')")
             .px-5
               p.mb-5 Permite expresar, organizar y representar la información de forma lógica y creativa, en la siguiente infografía se presentan algunas de sus características: 
+              .titulo-sexto.color-acento-contenido.up
+                h5 Figura 3.
+                span Mapa mental               
               img.img-a.img-t(src='@/assets/curso/temas/55.svg' alt='imagen de apoyo')
 
           .py-4.py-md-5.bg18(titulo="Mapas conceptuales" :icono="require('@/assets/curso/temas/63.svg')")
             .px-5
               p.mb-5 Esta es una técnica de estudio muy útil para el aprendizaje de conceptos complejos, donde se estructura y organiza la información compleja en frases breves desarrollando la capacidad de síntesis y comprensión de la información. La construcción de un mapa conceptual requiere de los elementos que se indican a continuación: 
+              .titulo-sexto.color-acento-contenido.up
+                h5 Figura 4.
+                span Mapa mental               
               img.img-a.img-t(src='@/assets/curso/temas/56.svg' alt='imagen de apoyo')  
 
           .py-4.py-md-5.bg18(titulo="Fichas o tarjetas de estudio" :icono="require('@/assets/curso/temas/64.svg')")
@@ -340,10 +346,7 @@
 
                         li 
                           i.lista-ul__vineta
-                          | Opera con categorías de 
-                        li 
-                          i.lista-ul__vineta
-                          | pensamiento, y no con categorías gramaticales.
+                          | Opera con categorías de pensamiento, y no con categorías gramaticales.
 
                         li 
                           i.lista-ul__vineta

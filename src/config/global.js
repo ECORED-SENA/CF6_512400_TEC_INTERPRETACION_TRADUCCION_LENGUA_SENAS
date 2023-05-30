@@ -271,7 +271,7 @@ export default {
     },
     {
       referencia:
-        'Luque, N., L. (2009). Los culturemas:¿ unidades lingüísticas, ideológicas o culturales?. <i>Language Design: Journal of Theoretical and Experimental Linguistics, (special issue)</i>, 0093-120.',
+        'Luque, N., L. (2009). Los culturemas: ¿unidades lingüísticas, ideológicas o culturales?. <i>Language Design: Journal of Theoretical and Experimental Linguistics, (special issue)</i>, 0093-120.',
     },
     {
       referencia:
@@ -430,19 +430,19 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },

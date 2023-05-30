@@ -51,7 +51,7 @@
 
     .bg8
       .titulo-sexto.color-acento-contenido.up
-        h5 Figura 5.
+        h5 Figura 2.
         span Equivalencia entre lenguas
       .row.justify-content-center.align-items-center.mb-5           
         .col-lg-10
@@ -130,7 +130,7 @@
 
     .row.justify-content-center.align-items-end       
       .col-lg-6.my-3 
-        h5(data-aos="fade-down").mb-4 La relación entre las dos culturas:
+        h5(data-aos="fade-down").mb-4 #[b a.] La relación entre las dos culturas:
         .list.mb-3(data-aos="fade-right")
           .list__item
             .list__item__icon
@@ -158,22 +158,22 @@
       .col-lg-3.my-3(data-aos="fade-right")
         .bg23.p-4.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/87.svg', alt='')
-          p(data-aos="fade-down").mb-0 Características de la lengua origen que pueden condicionar el culturema. 
+          p(data-aos="fade-down").mb-0 #[b b.] Características de la lengua origen que pueden condicionar el culturema. 
 
       .col-lg-3.my-3(data-aos="fade-right")
         .bg23.p-4.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/88.svg', alt='')
-          p(data-aos="fade-down").mb-0 Carácter del culturema (grado de universalidad). 
+          p(data-aos="fade-down").mb-0 #[b c.] Carácter del culturema (grado de universalidad). 
 
       .col-lg-3.my-3(data-aos="fade-left")
         .bg23.p-4.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/89.svg', alt='')
-          p(data-aos="fade-down").mb-0 Características del receptor.
+          p(data-aos="fade-down").mb-0 #[b d.] Características del receptor.
 
       .col-lg-3.my-3(data-aos="fade-left")
         .bg23.p-4.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/90.svg', alt='')
-          p(data-aos="fade-down").mb-0 Objetivo de la traducción o interpretación.                     
+          p(data-aos="fade-down").mb-0 #[b e.] Objetivo de la traducción o interpretación.                     
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-5.up.my-3
@@ -239,11 +239,13 @@
 
     .bg13
       h5.mb-5.c1(data-aos="fade-down") En ocasiones el traductor e intérprete sobrepasa los límites de su ejercicio:
-      .row.justify-content-center.align-items-end    
+      .row.justify-content-center.align-items-end
+        .col-lg-6.mb-3.d-block.d-lg-none
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.svg', alt='')           
         .col-lg-3.mb-3
           .bg14.p-3.text-center
             p(data-aos="fade-down").mb-0 Toma posición ante las ideas de la lengua origen.      
-        .col-lg-6.mb-3
+        .col-lg-6.mb-3.d-none.d-lg-block
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.svg', alt='') 
         .col-lg-3.mb-3
           .bg14.p-3.text-center

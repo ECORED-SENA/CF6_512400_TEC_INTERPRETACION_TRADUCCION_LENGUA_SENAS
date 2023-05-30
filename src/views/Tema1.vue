@@ -65,7 +65,7 @@
       .col-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.svg', alt='')          
       .col.my-3 
-        p.mb-0(data-aos="fade-down") Por otro lado, #[b.c2 las técnicas de traducción] tienen que ver con las diferentes metodologías dentro del texto. Son la aplicación concreta visible en el resultado, que afecta a zonas menores del texto. En la siguiente figura se expondrá la diferencia entre ambos términos. 
+        p.mb-0(data-aos="fade-down") Por otro lado, #[b.c2 las técnicas de traducción] tienen que ver con las diferentes metodologías dentro del texto. Son la aplicación concreta visible en el resultado, que afecta a zonas menores del texto. En la siguiente tabla se expondrá la diferencia entre ambos términos. 
 
     .row.justify-content-center.align-items-center          
       .col-lg-8
@@ -89,7 +89,7 @@
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10.bg4.p-4
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 1.
           span Traducción
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/13.svg', alt='') 
 
@@ -170,8 +170,7 @@
       .col-lg-8.my-3
         p(data-aos="fade-down") Cuando se habla de la lengua de señas, podríamos pensar en avances similares. En países como España, específicamente en la Universidad Politécnica de Madrid, se ha venido desarrollando un módulo de traducción automática que hace reconocimiento de voz y traduce a Lengua de Señas Española (LSE). En nuestro país, en la Universidad Distrital Francisco José de Caldas de la ciudad de Bogotá, en el año 2013 se desarrolló una herramienta tecnológica que permite mejorar el aprendizaje de la Lengua de Señas Colombiana en los niños con discapacidad auditiva. 
 
-        p(data-aos="fade-down") Se puede ver que en un futuro cercano se tendrán herramientas tecnológicas que optimizan el proceso traductor, las cuales serán de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.traductor.                             
-
+        p(data-aos="fade-down") Se puede ver que en un futuro cercano se tendrán herramientas tecnológicas que optimizan el proceso traductor, las cuales serán de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.
 
 </template>
 
