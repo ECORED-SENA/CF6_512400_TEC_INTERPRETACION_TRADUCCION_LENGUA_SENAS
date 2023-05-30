@@ -328,7 +328,7 @@
 
         .row.justify-content-center.align-items-center      
           .col-lg-10      
-            .tabla.color-acento-contenido.mb-5
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead.bgh
                   tr
@@ -401,7 +401,7 @@
                 
             p(data-aos="fade-down").mb-5 La transposición también llamada recategorización, consiste en realizar un cambio en la estructura gramatical de la frase sin alterar su significado. Puede ser obligatoria, es decir, por el funcionamiento de la lengua, o facultativa, por elección del traductor. Algunos expertos la consideran el alma de la traducción.  
 
-            .tabla.color-acento-contenido.mb-5
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead.bgh
                   tr
@@ -469,7 +469,7 @@
             p(data-aos="fade-down").mb-5 Esta técnica también es conocida como meta frase, donde la traducción del texto se realiza de forma literal, palabra por palabra, sin alterar ni la estructura ni el significado de este. Con esta técnica se pierde el sentido del texto ya que no suelen haber muchas palabras con una única traducción en un idioma. Por lo que suele utilizarse solo cuando la lengua meta conserva la misma sintaxis, sentido y estilo que la original.
             .row.justify-content-center.align-items-center          
               .col-lg-10
-                .tabla.color-acento-contenido.mb-5
+                .tabla-a.color-acento-contenido.mb-5
                   table
                     thead.bgh
                       tr
@@ -512,7 +512,7 @@
                 
             p(data-aos="fade-down").mb-5 Es similar a la traducción literal, el calco adopta la estructura y las expresiones de la lengua origen y las traslada a la lengua meta, pero sin respetar su estructura y creando un neologismo. 
 
-            .tabla.color-acento-contenido.mb-5
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead.bgh
                   tr
@@ -571,7 +571,7 @@
                 
             p(data-aos="fade-down").mb-5 Consiste en utilizar una palabra o expresión de la lengua origen en la lengua meta. Normalmente se señala en formato cursiva para identificar la técnica de traducción. 
 
-            .tabla.color-acento-contenido.mb-5
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead.bgh
                   tr
@@ -637,7 +637,7 @@
             p(data-aos="fade-down").mb-5 La equivalencia o adaptación, es una técnica que utiliza diferentes recursos estructurales y estilísticos de la lengua origen, siempre y cuando transmitan el mismo mensaje. Cuando una de las lenguas utiliza un código propio o un idiomatismo, busca una correspondencia en significado entre las dos lenguas. Está ligado a los proverbios, frases idiomáticas, juegos de palabras, metáforas, juegos fónicos, variantes dialectales, entre otros.
             .row.justify-content-center.align-items-center          
               .col-lg-10            
-                .tabla.color-acento-contenido.mb-5
+                .tabla-a.color-acento-contenido.mb-5
                   table
                     thead.bgh
                       tr
@@ -681,7 +681,7 @@
                 
             p(data-aos="fade-down").mb-5 Es conocida también como traducción libre, sustitución o equivalente cultural, es una técnica de traducción en la que los elementos culturales y realidades de la lengua origen se adaptan a la cultura de la lengua meta. 
 
-            .tabla.color-acento-contenido.mb-5
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead.bgh
                   tr
@@ -744,7 +744,7 @@
             p(data-aos="fade-down").mb-5 Ampliación o explicación del significado de un término o fragmento en algún idioma. Se suele usar con textos de baja calidad o con omisiones, para dejar claro el significado confuso en el idioma fuente. Imita sin alterar y ayuda a comprender un enunciado (aclara localismos).
             .row.justify-content-center.align-items-center          
               .col-lg-10             
-                .tabla.color-acento-contenido.mb-5
+                .tabla-a.color-acento-contenido.mb-5
                   table
                     thead.bgh
                       tr
