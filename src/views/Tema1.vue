@@ -40,9 +40,9 @@
             td López Guix y Minett Wilkinson (1997)
             td Sostienen que en la medida en que la traducción es una técnica, es posible hacer cierto tipo de generalizaciones; pero en la medida en que es un arte, solo la intuición y la sensibilidad lingüística del traductor pueden decidir si la solución general es aplicable a cada caso concreto.   
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Diferencia entre técnicas y métodos de traducción   
+    Separador 
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.1 Diferencia entre técnicas y métodos de traducción   
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7.my-3
@@ -105,9 +105,9 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/zntjiZpR_-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
         figcaption Video. Tipos de traducciones LSC. 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Métodos de traducción     
+        Separador 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.2 Métodos de traducción     
 
     .row.justify-content-center.align-items-center.mb-5 
       .col.my-3 
@@ -122,9 +122,9 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/99JZ0eJuZ4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
         figcaption Video. Métodos de traducción. 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Recursos técnicos y tecnológicos en la traducción
+    Separador 
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.3 Recursos técnicos y tecnológicos en la traducción
 
     p.mb-5(data-aos="fade-down") Para realizar la labor de llevar un texto de un idioma a otro procurando la mayor claridad y fidelidad posible al texto original, se requiere contar con diferentes recursos técnicos que, afortunadamente hoy en el mundo del traductor ya se cuentan, como también de una plataforma tecnológica que facilite la tarea. Entre estos recursos técnicos se puede hablar de:  
 

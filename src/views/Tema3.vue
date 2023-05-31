@@ -10,13 +10,12 @@
     .bg15
       p(data-aos="fade-down").mb-5 Las distintas técnicas de traducción #[b.c2 son mecanismos de traducción para conseguir el mejor resultado en el idioma de destino.] La traducción consiste en transmitir el mismo mensaje de un idioma a otro, teniendo en cuenta la cultura, el espacio y el tiempo del idioma de origen y del idioma de destino. Los métodos de traducción son aplicados para la totalidad del texto, mientras que las técnicas de traducción se aplican distintas dentro de un mismo texto, según sea más conveniente.
 
-      .row.justify-content-center.align-items-center.mb-5           
-        .col-lg-4.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/46.png', alt='')   
+      Separador 
+      #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+        h2 3.1 Análisis del discurso 
+
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.my-3
-          .row.justify-content-start.mb-4      
-            .col-auto.bg9.p-3(data-aos="flip-down")
-              h5.mb-0(data-aos="fade-down") Análisis del discurso 
           p(data-aos="fade-down").mb-4 En la lingüística, analizar el discurso es una tendencia y una necesidad para obtener una concepción activa del lenguaje, por lo que dejó de tener solo importancia marginal desde hace 20 años. Así, leer el discurso se ha considerado como leer la realidad social. Existen muchas propuestas para hacer un análisis del discurso, por lo que en ocasiones puede resultar en un constante dolor de cabeza para muchos, sin embargo, previo a dicho análisis discursivo, es fundamental tener claridad teórica sobre: 
           .row.justify-content-center.align-items-center
             .col-10          
@@ -35,10 +34,11 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/49.svg', alt='')       
                 .col.my-2 
                   p.mb-0(data-aos="fade-down") ¿Cuáles son las ideas primarias y secundarias?  
-
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") La toma de apuntes como apoyo a la traducción e interpretación    
+        .col-lg-4.my-3
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/46.png', alt='') 
+    Separador 
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.2 La toma de apuntes como apoyo a la traducción e interpretación    
 
     p(data-aos="fade-down").mb-5 Existen múltiples formas de toma de apuntes como apoyo al proceso de traducción e interpretación. A continuación, se enuncian algunas formas para la toma de apuntes que pueden ser de mucha utilidad:
 
@@ -118,7 +118,7 @@
               .titulo-sexto.color-acento-contenido.up
                 h5 Figura 3.
                 span Mapa mental               
-              img.img-a.img-t(src='@/assets/curso/temas/55.svg' alt='imagen de apoyo')
+              img.img-a.img-t(src='@/assets/curso/temas/55.svg' alt='El mapa mental es una representación visual que permite organizar ideas de manera clara y lógica. Se utilizan palabras clave, líneas, símbolos, colores e imágenes para ilustrar conceptos simples. La hoja se recomienda en posición horizontal y las ideas se conectan mediante líneas sin interrupciones. En el centro se destaca la idea principal, rodeada por las ideas secundarias. Es una herramienta útil para la generación de ideas y las imágenes desempeñan un papel destacado en la representación de conceptos.')
 
           .py-4.py-md-5.bg18(titulo="Mapas conceptuales" :icono="require('@/assets/curso/temas/63.svg')")
             .px-5
@@ -126,7 +126,7 @@
               .titulo-sexto.color-acento-contenido.up
                 h5 Figura 4.
                 span Mapa mental               
-              img.img-a.img-t(src='@/assets/curso/temas/56.svg' alt='imagen de apoyo')  
+              img.img-a.img-t(src='@/assets/curso/temas/56.svg' alt='El mapa conceptual es una representación gráfica que permite organizar y conectar conceptos de manera jerárquica y significativa. En este tipo de mapa, se utilizan palabras de enlace para establecer relaciones entre los conceptos, formando proposiciones que representan unidades de significado. Además, se pueden encontrar conexiones cruzadas, que revelan relaciones entre segmentos diferentes de la jerarquía conceptual, fusionando conocimientos en una sola estructura. A través del mapa conceptual, se visualiza de manera clara y concisa la interrelación entre los conceptos y su importancia dentro de un tema o área de estudio.')  
 
           .py-4.py-md-5.bg18(titulo="Fichas o tarjetas de estudio" :icono="require('@/assets/curso/temas/64.svg')")
             .px-5
@@ -290,10 +290,8 @@
       .bgw.brad.p-4.sha
         .row.justify-content-center.align-items-center          
           .col-lg-10 
-
-            .row.justify-content-start.my-4      
-              .col-auto.up.bg9.p-3(data-aos="flip-down")
-                h5.mb-0(data-aos="fade-down") Categorización de las técnicas de traducción
+            #t_3_3.titulo-segundo.color-acento-contenido.mt-3(data-aos="zoom-in-left")
+              h2 3.3 Categorización de las técnicas de traducción
 
 
             .row.justify-content-center.align-items-center.mb-5

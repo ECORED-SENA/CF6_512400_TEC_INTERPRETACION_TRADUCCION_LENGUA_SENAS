@@ -37,9 +37,9 @@
       .col.my-3 
         p.mb-0(data-aos="fade-down") Recordando lo expresado anteriormente, la Lengua de Señas Colombiana (LSC) es una lengua ágrafa y, por lo tanto, carece de símbolos gráficos, excepto los sistemas antes mencionados, podríamos hablar de traducir textos de una lengua hablada a la Lengua de Señas Colombiana (LSC). En este caso es necesario tomar en cuenta factores culturales, expresiones propias de la LSC, como la expansiones y reducciones, que ayudan a dar una mejor comprensión del texto (esto mismo se puede aplicar al proceso de interpretación).       
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Equivalencia entre lenguas en el proceso de traducción  
+    Separador 
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.1 Equivalencia entre lenguas en el proceso de traducción  
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7.my-3
@@ -122,9 +122,9 @@
 
           .bg22.p-3
             p(data-aos="fade-down").mb-0 Mantiene el contenido y obtiene una reacción por parte del receptor, gracias al valor semántico que transmite el traductor o intérprete.                                                         
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Equivalencia cultural
+    Separador 
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.2 Equivalencia cultural
 
     p(data-aos="fade-down").mb-4 Como mediador lingüístico y cultural, el traductor e intérprete carga con una gran responsabilidad, debido a que necesita amplios conocimientos de las lenguas y las culturas (de origen y meta). Antes de enfrentarse al ejercicio de traducción cultural, es importante recordar estas recomendaciones: 
 
@@ -227,9 +227,9 @@
             .col.my-3 
               p.mb-0(data-aos="fade-down") Categoría ecología 
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3.up(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Equivalencia discursiva
+              Separador 
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.3 Equivalencia discursiva
 
     .row.justify-content-center.align-items-center.mb-5
       .col-auto.my-3
@@ -260,9 +260,9 @@
             
       p.my-5(data-aos="fade-down") El esfuerzo por crear una traducción clara, natural y fluida hace que la equivalencia discursiva se vea amenazada por la voz, la crítica o la duda del traductor. La presencia del traductor puede hacerse evidente al punto de controlar la palabra y mezclarse en el discurso, esto es especialmente notorio cuando se toman decisiones de cuándo mantener la estructura de la lengua origen y cuándo alterarla.   
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Equivalencia gramatical  
+    Separador 
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.4 Equivalencia gramatical  
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-6.my-3

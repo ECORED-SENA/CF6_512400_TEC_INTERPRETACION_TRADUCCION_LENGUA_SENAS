@@ -38,6 +38,23 @@ export default {
         numero: '1',
         titulo: 'Traducción',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Diferencia entre técnicas y métodos de traducción',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Métodos de traducción',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Recursos técnicos y tecnológicos en la traducción',
+            hash: 't_1_3',
+          },
+        ],
       },
 
       {
@@ -46,12 +63,52 @@ export default {
         titulo:
           'Aspectos que intervienen en el proceso de traducción y equivalencias',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Equivalencia entre lenguas en el proceso de traducción',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Equivalencia cultural',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Equivalencia discursiva',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Equivalencia gramatical',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Técnicas de traducción y categorización',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Análisis del discurso',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'La toma de apuntes como apoyo a la traducción e interpretación',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Categorización de las técnicas de traducción',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -106,7 +163,7 @@ export default {
         'Coseriu, E., y Polo, J. (1986). <i>Introducción a la lingüística</i> (Vol. 65). Gredos. ',
       tipo: 'Artículo',
       link:
-        'http://ri.uaemex.mx/bitstream/handle/20.500.11799/33985/secme-15936.pdf?sequence=1&isAllowed=y',
+        'http://ri.uaemex.mx/bitstream/handle/20.500.11799/33985/secme-15936.pdf?sequence=1&isAllowed=',
     },
     {
       tema: 'Traducción',
@@ -370,7 +427,7 @@ export default {
           nombre: 'Nidian Yarume Ortiz Buitrago',
           cargo: 'Experta',
           centro:
-            'Regional Bogotá - Centro de formación en Talento Humano y Salud',
+            'Regional Distrito Capital - Centro de formación en Talento Humano y Salud',
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
@@ -406,8 +463,8 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación de contenido',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
