@@ -163,7 +163,7 @@ export default {
         'Coseriu, E., y Polo, J. (1986). <i>Introducción a la lingüística</i> (Vol. 65). Gredos. ',
       tipo: 'Artículo',
       link:
-        'http://ri.uaemex.mx/bitstream/handle/20.500.11799/33985/secme-15936.pdf?sequence=1&isAllowed=',
+        'https://textosenlinea.com.ar/academicos/Introduccion%20a%20la%20linguistica.pdf',
     },
     {
       tema: 'Traducción',
