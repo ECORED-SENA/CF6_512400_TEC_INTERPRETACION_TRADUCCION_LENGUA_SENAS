@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143" height="143" viewBox="0 0 143 143">
+  <defs>
+    <filter id="Elipse_4711" x="0" y="0" width="143" height="143" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1010190" data-name="Grupo 1010190" transform="translate(2830 8690.499)">
+    <g id="Grupo_944839" data-name="Grupo 944839" transform="translate(-2820.914 -8684.367)">
+      <g transform="matrix(1, 0, 0, 1, -9.09, -6.13)" filter="url(#Elipse_4711)">
+        <circle id="Elipse_4711-2" data-name="Elipse 4711" cx="62.5" cy="62.5" r="62.5" transform="translate(9 6)" fill="#0098e8"/>
+      </g>
+      <g id="_2" data-name="2" transform="translate(29.076 15.685)">
+        <path id="Trazado_688490" data-name="Trazado 688490" d="M223.87,42.2,216.632,5.809a7.216,7.216,0,1,0-14.154,2.816l5.535,27.828.139,1.415-1.811,23.71,1.811,20.69,22.016-20.2V56.629l8.3-13.828,6.224-31.29A7.216,7.216,0,1,0,230.534,8.7Z" transform="translate(-179.289 0)" fill="#ffcaba"/>
+        <path id="Trazado_688491" data-name="Trazado 688491" d="M233.29,283.5A27.591,27.591,0,0,0,260.882,255.9V240.161a7.216,7.216,0,0,0-7.216-7.216h-20.2a7.216,7.216,0,0,0,0,14.432H246.45v5.434a20.2,20.2,0,0,0-20.2,20.2l-1.811,4.923,1.811,5.556Z" transform="translate(-197.382 -190.747)" fill="#ffbaa5"/>
+        <path id="Trazado_688492" data-name="Trazado 688492" d="M102.689,318.121A27.591,27.591,0,0,1,75.1,290.53v-15.3h28.863v42.89Z" transform="translate(-75.098 -225.373)" fill="#ffdccc"/>
+        <path id="Trazado_688493" data-name="Trazado 688493" d="M96.746,171.663a7.216,7.216,0,0,0-7.216,7.216v5.773a7.216,7.216,0,0,0-14.432,0v5.773a7.216,7.216,0,1,0,14.432,0,7.216,7.216,0,1,0,14.432,0V178.879A7.216,7.216,0,0,0,96.746,171.663Z" transform="translate(-75.098 -140.567)" fill="#ffece3"/>
+      </g>
+    </g>
+  </g>
+</svg>
