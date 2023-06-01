@@ -222,20 +222,12 @@ export default {
         'https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/2696/Rev.Lenguaje%2CNo.27%2Cp.50-77%2C1999.pdf?sequence=2&isAllowed=y',
     },
     {
-      tema:
-        'Aspectos que intervienen en el proceso de traducción y equivalencias',
-      referencia:
-        'Fridman-Mintz, B. (2012). <i>Reflexiones sobre las etnias sordas</i>. Congreso iberoamericano de educación bilingüe para sordos, Paraguay.',
-      tipo: 'Artículo',
-      link: 'https://cultura-sorda.org/reflexiones-sobre-las-etnias-sordas/',
-    },
-    {
       tema: 'Técnicas de traducción y categorización',
       referencia:
         'Massone, M. I., & Menéndez, S. M. (1996). <i>Una aproximación interaccional para el análisis de la Lengua de Señas Argentina</i>.',
       tipo: 'Artículo',
       link:
-        'https://cultura-sorda.org/una-aproximacion-interaccional-para-el-analisis-lsa/',
+        'https://www.cultura-sorda.org/wp-content/uploads/2015/03/Massone_Martinez_curso_LSA_PARTE_II_2012.pdf',
     },
   ],
   glosario: [
@@ -379,12 +371,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -452,7 +444,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -470,7 +462,7 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Diseño digital',
+          cargo: 'Storyboard e ilustración',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
